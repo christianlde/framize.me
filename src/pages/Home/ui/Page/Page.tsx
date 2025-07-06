@@ -19,7 +19,7 @@ function Emphasis({ children }: { children: ReactNode }) {
 }
 
 
-export default function App() {
+export default function Home() {
   return (
     <main className="px-2 md:px-4 lg:px-8 xl:px-12 bg-stone-900">
       <header className="py-10 md:py-14 lg:py-18 xl:py-24 flex flex-col flex-justify-center items-center gap-1">
@@ -41,7 +41,7 @@ export default function App() {
             </CustomLink>
           </li>
           <li>
-            <CustomLink href='https://app.framize.christiande.com/'>
+            <CustomLink href='/app'>
               Open web app
             </CustomLink>
           </li>
