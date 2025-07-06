@@ -1,6 +1,6 @@
 import { useEffect, useState, type ReactNode } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowLeft, faArrowRight , faPlus, faMinus, faSearch, faSortNumericDown, faChevronDown, faX, faLink } from '@fortawesome/free-solid-svg-icons';
+import { faArrowLeft, faArrowRight , faPlus, faMinus, faSearch, faSortNumericDown, faChevronDown, faX } from '@fortawesome/free-solid-svg-icons';
 
 function Gray({ children }: { children: ReactNode }) {
   return <span className="text-stone-200">
