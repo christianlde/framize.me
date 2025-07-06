@@ -404,10 +404,10 @@ export default function AppHome() {
                 <p>Server</p>
                 <div className="bg-stone-800 rounded-md p-2 flex flex-row gap-2 justify-between items-center">
                   {/* <p>File server <b>(not yet working, just placeholder)</b></p> */}
-                  <p>Placeholder Images from <a href="https://unsplash.com"><b>Unsplash</b> <FontAwesomeIcon icon={faLink} /></a></p>
+                  <p>Placeholder Images from <b>s3.christiande.com</b></p>
 
                   <button className="bg-rose-600 text-white rounded-md px-2 py-1">
-                    images.unsplash.com
+                    s3.christiande.com
                   </button>
                 </div>
 
